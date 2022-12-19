@@ -8,7 +8,34 @@ let result;
 
 basic.forever(function () {
     if (calculating == false) {
-        basic.showString("+ - x :");
+        basic.showLeds(`
+        . . . . .
+        . . # . .
+        . # # # .
+        . . # . .
+        . . . . .
+        `)
+        basic.showLeds(`
+        . . . . .
+        . . . . .
+        . # # # .
+        . . . . .
+        . . . . .
+        `)
+        basic.showLeds(`
+        . . . . .
+        . # . # .
+        . . # . .
+        . # . # .
+        . . . . .
+        `)
+        basic.showLeds(`
+        . . . . .
+        . . # . .
+        . . . . .
+        . . # . .
+        . . . . .
+        `)
     }
 });
 
